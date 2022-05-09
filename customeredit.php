@@ -63,7 +63,7 @@ $res = $pdo->exec("UPDATE `customer` SET `fullname`='".$fullname."',`phonenumber
 	<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>	
 	
 	UPDATED Successfully!
-	<meta http-equiv='refresh' content='2; url=customerview.php' />
+	<meta http-equiv='refresh' content='2; url=customerview' />
 	
 	</div>";
 	}else{
@@ -93,7 +93,7 @@ $old = $oldd->fetch(PDO::FETCH_ASSOC)
 				
 				
 				
-				    <form action="customeredit.php?id=<?php echo $eid ?>" method="post">
+				    <form action="customeredit?id=<?php echo $eid ?>" method="post">
 					<div class="card" style="width:500px;height:900px;background-color:white;padding: 40px;border-radius:10px;box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -webkit-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -moz-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);">   

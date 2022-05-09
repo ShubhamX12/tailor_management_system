@@ -82,25 +82,25 @@ $ddaa = $pdo->query("SELECT id, address, fullname, phonenumber, sex FROM custome
 		}
 		$mes = $pdo->query("SELECT * FROM `measurement` WHERE `customer_id` = ".$data['id']." LIMIT 1");
 		if(!$mes->fetch(PDO::FETCH_ASSOC)){
-		$measure = '<a href="addmeasurement.php?id='.$data['id'].'" class="btn btn-warning btn-xs">Add Meas</a>';
+		$measure = '<a href="addmeasurement?id='.$data['id'].'" class="btn btn-warning btn-xs">Add Meas</a>';
 		}
 		else{
-		$measure = '<a href="editmeasurement.php?id='.$data['id'].'" class="btn btn-warning btn-xs">Edit Meas</a>';
+		$measure = '<a href="editmeasurement?id='.$data['id'].'" class="btn btn-warning btn-xs">Edit Meas</a>';
 		}
 			
 
  echo "                                 <tr>
                                             <td>$data[id]</td>
-											<td><a href='customeredit.php?id=$data[id]'>$data[fullname]</a></td>
+											<td><a href='customeredit?id=$data[id]'>$data[fullname]</a></td>
                                             <td>$data[address]</td>
 											<td>$data[phonenumber]</td>
 											<td>$data[sex]</td>
                                    
                                             
 											<td>
-<a href='orderadd.php?id=$data[id]' class='btn btn-success btn-xs'>New Order</a>
+<a href='orderadd?id=$data[id]' class='btn btn-success btn-xs'>New Order</a>
 $measure 
-<a href='customerview.php?id=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
+<a href='customerview?id=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
 ";
 
 echo "</td></tr>";

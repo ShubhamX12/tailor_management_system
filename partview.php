@@ -79,8 +79,8 @@ $rname =	$rname->fetch(PDO::FETCH_ASSOC);
                                    
                                             
 											<td>
-<a href='partedit.php?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
-<a href='partview.php?typeid=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
+<a href='partedit?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
+<a href='partview?typeid=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
 ";
 
 echo "</td></tr>";

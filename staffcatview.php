@@ -58,8 +58,8 @@ $ddaa = $pdo->query("SELECT id, title FROM stafftype ORDER BY id");
                                             <td>$data[id]</td>
                                             <td>$data[title]</td>
                                             <td>
-							<a href='staffcatedit.php?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
-							<a href='staffcatdelete.php?id=$data[id]' class='btn btn-danger btn-xs'>DELETE</a>
+							<a href='staffcatedit?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
+							<a href='staffcatdelete?id=$data[id]' class='btn btn-danger btn-xs'>DELETE</a>
 											</td>
                                         </tr>
 	";

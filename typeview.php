@@ -58,8 +58,8 @@ $ddaa = $pdo->query("SELECT id, title FROM type ORDER BY id");
                                             <td>$data[id]</td>
                                             <td>$data[title]</td>
                                             <td>
-							<a href='typeedit.php?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
-							<a href='typedelete.php?id=$data[id]' class='btn btn-danger btn-xs'>DELETE</a>
+							<a href='typeedit?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
+							<a href='typedelete?id=$data[id]' class='btn btn-danger btn-xs'>DELETE</a>
 											</td>
                                         </tr>
 	";

@@ -76,7 +76,7 @@ echo "<div class='alert alert-success alert-dismissable'>
 Payment Received Successfully!
 
 </div>
-<meta http-equiv='refresh' content='2; url=orderlist.php' />
+<meta http-equiv='refresh' content='2; url=orderlist' />
 ";
 
 }else{

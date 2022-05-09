@@ -150,7 +150,7 @@ Password Must be 4 or more char.
             <div class="row">
                 <div class="col-md-3 col-md-offset-1">
                     
-				<form action="changepass.php" method="post">
+				<form action="changepass" method="post">
 		
                 <div class="card" style="width:500px;height:400px;background-color:white;padding: 40px;border-radius:10px;box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -webkit-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);

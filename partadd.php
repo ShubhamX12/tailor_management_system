@@ -122,7 +122,7 @@ Please select a Category!!!!
 				
 				
 				
-				    <form action="partadd.php" method="post"  enctype="multipart/form-data">
+				    <form action="partadd" method="post"  enctype="multipart/form-data">
 		
             <div class="card" style="width:500px;height:550px;background-color:white;padding: 40px;border-radius:10px;box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -webkit-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);

@@ -57,7 +57,7 @@ echo "<div class='alert alert-success alert-dismissable'>
 Measurements Edit Successfully!
 
 </div>
-<meta http-equiv='refresh' content='2; url=orderadd.php?id=$id' /> ";
+<meta http-equiv='refresh' content='2; url=orderadd?id=$id' /> ";
 
 
 
@@ -76,7 +76,7 @@ Measurements Edit Successfully!
 				
 				
 				
-				    <form action="editmeasurement.php?id=<?php echo ($_GET['id']);?>" method="post">
+				    <form action="editmeasurement?id=<?php echo ($_GET['id']);?>" method="post">
 		
                     <div class="form-group">
 <p style="font-weight:100; color:#666; font-size:24px;">					
@@ -104,7 +104,7 @@ while ($typee = $type->fetch(PDO::FETCH_ASSOC))
 		$mes = $mes->fetch(PDO::FETCH_ASSOC);
 		if(!$data['image']) $data['image']="tailor.png";
 		$img = 'img/part/'.$data['image'];
-		echo "<tr><td style='width:100px; height: 40px; margin: 20px;'><a href='$img'><img src='$img' width='50px' /></a></td><td style='width:200px; height: 40px; margin: 20px;'><label><a href='partedit.php?id=$data[id]'>$data[title]</a></label></td>";
+		echo "<tr><td style='width:100px; height: 40px; margin: 20px;'><a href='$img'><img src='$img' width='50px' /></a></td><td style='width:200px; height: 40px; margin: 20px;'><label><a href='partedit?id=$data[id]'>$data[title]</a></label></td>";
 		echo "<td><input type='text' name='$data[id]' value='$mes[measurement]' style='width:200px; height: 40px; margin: 20px;' /></td></tr>";
 		
 	}

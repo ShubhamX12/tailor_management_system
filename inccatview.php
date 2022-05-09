@@ -58,8 +58,8 @@ $ddaa = $pdo->query("SELECT id, title FROM inccat ORDER BY id");
                                             <td>$data[id]</td>
                                             <td>$data[title]</td>
                                             <td>
-							<a href='inccatedit.php?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
-							<a href='inccatdelete.php?id=$data[id]' class='btn btn-danger btn-xs'>DELETE</a>
+							<a href='inccatedit?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
+							<a href='inccatdelete?id=$data[id]' class='btn btn-danger btn-xs'>DELETE</a>
 											</td>
                                         </tr>
 	";

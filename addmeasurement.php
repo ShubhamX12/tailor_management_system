@@ -58,7 +58,7 @@ echo "<div class='alert alert-success alert-dismissable'>
 Measurements Added Successfully!
 
 </div>
-<meta http-equiv='refresh' content='2; url=orderadd.php?id=$id' /> ";
+<meta http-equiv='refresh' content='2; url=orderadd?id=$id' /> ";
 
 
 
@@ -77,7 +77,7 @@ Measurements Added Successfully!
 				
 				
 				
-				    <form action="addmeasurement.php?id=<?php echo ($_GET['id']);?>" method="post">
+				    <form action="addmeasurement?id=<?php echo ($_GET['id']);?>" method="post">
 		
                     <div class="form-group">
 <p style="font-weight:100; color:#666; font-size:24px;">					

@@ -66,7 +66,7 @@ $name = $name['fullname'].": ". substr($desc,0,100);
 
 $res = $pdo->exec("INSERT INTO `order`(`customer`, `description`, `amount`, `paid`, `received_by`, `date_received`, `completed`, `date_collected`) VALUES ('$customer','$desc','$amount','$paid','$received_by','$date_received','$completed','$date_collected')");
 $cid = $pdo->lastInsertId();
-$res2 = $pdo->exec("INSERT INTO `calendar`(`title`, `description`, `start`, `end`, `allDay`, `color`, `url`, `category`, `user_id`) VALUES ('$name','$desc','$date_received','$date_collected','true','$color','../orderedit.php?id=$cid','Orders','$uid')");
+$res2 = $pdo->exec("INSERT INTO `calendar`(`title`, `description`, `start`, `end`, `allDay`, `color`, `url`, `category`, `user_id`) VALUES ('$name','$desc','$date_received','$date_collected','true','$color','../orderedit?id=$cid','Orders','$uid')");
 if($res){
 
 echo "<div class='alert alert-success alert-dismissable'>
@@ -100,7 +100,7 @@ Order Added Successfully!
 				
 				
 				
-				    <form action="orderadd.php" method="post">
+				    <form action="orderadd" method="post">
 					<div class="card" style="width:500px;height:950px;background-color:white;padding: 40px;border-radius:10px;box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -webkit-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -moz-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);">   

@@ -96,10 +96,10 @@ $balance = 	$data['amount'] - $data['paid'];
                                    
                                             
 											<td>
-<a href='addpayment.php?id=$data[id]' class='btn btn-success btn-xs'>Add Payment</a>
-<a href='printinvoice.php?id=$data[id]' class='btn btn-warning btn-xs'>Receipt</a>
-<a href='orderedit.php?id=$data[id]' class='btn btn-info btn-xs'>Update</a>
-<a href='orderlist.php?id=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
+<a href='addpayment?id=$data[id]' class='btn btn-success btn-xs'>Add Payment</a>
+<a href='printinvoice?id=$data[id]' class='btn btn-warning btn-xs'>Receipt</a>
+<a href='orderedit?id=$data[id]' class='btn btn-info btn-xs'>Update</a>
+<a href='orderlist?id=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
 ";
 
 echo "</td></tr>";

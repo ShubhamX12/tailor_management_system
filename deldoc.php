@@ -57,7 +57,7 @@ Demo Version !! Cant Change!!
 
 
 ?>	
-		<meta http-equiv="refresh" content="2; url=document.php" />  
+		<meta http-equiv="refresh" content="2; url=document" />  
 		  
 		
 	 </div>

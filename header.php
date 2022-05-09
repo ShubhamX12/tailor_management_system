@@ -105,53 +105,53 @@ h1 {
 
             <h5 class="sidebartitle actitle" style="background-color:black">Account</h5>
             <ul class="nav nav-pills nav-stacked nav-bracket mb30">
-              <li><a href="changepass.php"><i class="fa fa-cog"></i> <span>Account Settings</span></a></li>
-              <li><a href="signout.php"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
+              <li><a href="changepass"><i class="fa fa-cog"></i> <span>Account Settings</span></a></li>
+              <li><a href="signout"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
             </ul>
         </div>
  
       <ul class="nav nav-pills  nav-stacked nav-bracket" id="slide1">
 	  
-        <li><a href="home.php" class="icon"><i class="fa fa-home"></i> <span class="icon">Dashboard</span></a></li>
+        <li><a href="home" class="icon"><i class="fa fa-home"></i> <span class="icon">Dashboard</span></a></li>
         
-    	<li><a href="orderadd.php" class="icon"><i class="fa fa-shopping-cart"></i><span>Add Order</span></a></li>
-        <li><a href="orderlist.php" class="icon"><i class="fa fa-shopping-cart"></i><span>View/Edit Orders</span></a></li>
+    	<li><a href="orderadd" class="icon"><i class="fa fa-shopping-cart"></i><span>Add Order</span></a></li>
+        <li><a href="orderlist" class="icon"><i class="fa fa-shopping-cart"></i><span>View/Edit Orders</span></a></li>
         
-        <li><a href="customeradd.php"  class="icon"><i class="fa fa-user"></i><span>Add Customer</span></a></li>
-        <li><a href="customerview.php" class="icon"><i class="fa fa-user"></i><span>View/Edit Customer</span></a></li>
-        <li><a href="sms.php" class="icon"><i class="fa fa-envelope-o"></i><span>Messsage</span></a></li>
+        <li><a href="customeradd"  class="icon"><i class="fa fa-user"></i><span>Add Customer</span></a></li>
+        <li><a href="customerview" class="icon"><i class="fa fa-user"></i><span>View/Edit Customer</span></a></li>
+        <li><a href="sms" class="icon"><i class="fa fa-envelope-o"></i><span>Messsage</span></a></li>
 	  
         <li class="nav-parent"><a href="#"><i class="fa fa-th-list"></i> <span>Staff Management</span></a>
           <ul class="children">
-            <li><a href="staffadd.php" class="icon"><i class="fa fa-caret-right"></i>Add Staff</a></li>
-            <li><a href="staffview.php" class="icon"><i class="fa fa-caret-right"></i>View/Edit Staff</a></li>
-            <li><a href="paysalary.php" class="icon"><i class="fa fa-caret-right"></i> Pay Salary</a></li>
-            <li><a href="staffcatadd.php" class="icon"><i class="fa fa-caret-right"></i>Add Designation</a></li>
-            <li><a href="staffcatview.php" class="icon"><i class="fa fa-caret-right"></i>View/Edit Designations</a></li>
+            <li><a href="staffadd" class="icon"><i class="fa fa-caret-right"></i>Add Staff</a></li>
+            <li><a href="staffview" class="icon"><i class="fa fa-caret-right"></i>View/Edit Staff</a></li>
+            <li><a href="paysalary" class="icon"><i class="fa fa-caret-right"></i> Pay Salary</a></li>
+            <li><a href="staffcatadd" class="icon"><i class="fa fa-caret-right"></i>Add Designation</a></li>
+            <li><a href="staffcatview" class="icon"><i class="fa fa-caret-right"></i>View/Edit Designations</a></li>
           </ul>
         </li>
         
         <li class="nav-parent"><a href="#"><i class="fa fa-th-list"></i> <span>Income Management</span></a>
           <ul class="children">
-          	<li><a href="incadd.php"><i class="fa fa-caret-right"></i>Add Income</a></li>
-            <li><a href="incview.php"><i class="fa fa-caret-right"></i>View/Edit Income</a></li>
-            <li><a href="inccatadd.php"><i class="fa fa-caret-right"></i>Add Income Category</a></li>
-            <li><a href="inccatview.php"><i class="fa fa-caret-right"></i>View/Edit Income Category</a></li>
+          	<li><a href="incadd"><i class="fa fa-caret-right"></i>Add Income</a></li>
+            <li><a href="incview"><i class="fa fa-caret-right"></i>View/Edit Income</a></li>
+            <li><a href="inccatadd"><i class="fa fa-caret-right"></i>Add Income Category</a></li>
+            <li><a href="inccatview"><i class="fa fa-caret-right"></i>View/Edit Income Category</a></li>
           </ul>
         </li>
         
         <li class="nav-parent"><a href="#"><i class="fa fa-th-list"></i> <span>Measurement Settings</span></a>
           <ul class="children">
-            <li><a href="typeadd.php"><i class="fa fa-caret-right"></i>Add Cloth Type</a></li>
-            <li><a href="typeview.php"><i class="fa fa-caret-right"></i>View/Edit Cloth Type</a></li>
-            <li><a href="partadd.php"><i class="fa fa-caret-right"></i>Set Mesurement Parts</a></li>
-            <li><a href="partview.php"><i class="fa fa-caret-right"></i>View/Edit Mesurement Parts</a></li>
+            <li><a href="typeadd"><i class="fa fa-caret-right"></i>Add Cloth Type</a></li>
+            <li><a href="typeview"><i class="fa fa-caret-right"></i>View/Edit Cloth Type</a></li>
+            <li><a href="partadd"><i class="fa fa-caret-right"></i>Set Mesurement Parts</a></li>
+            <li><a href="partview"><i class="fa fa-caret-right"></i>View/Edit Mesurement Parts</a></li>
           </ul>
         </li>
         
         <li class="nav-parent"><a href="#"><i class="fa fa-cog"></i> <span> General Setting</span></a>
           <ul  class="children">  
-            <li><a href="document.php"><i class="fa fa-caret-right"></i> Shop document</a></li>
+            <li><a href="document"><i class="fa fa-caret-right"></i> Shop document</a></li>
 			 
           </ul>
         </li>
@@ -186,8 +186,8 @@ echo " $user";
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
-              <li><a href="changepass.php"><i class="fa fa-cog"></i> <span>Account Settings</span></a></li>
-              <li><a href="signout.php"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
+              <li><a href="changepass"><i class="fa fa-cog"></i> <span>Account Settings</span></a></li>
+              <li><a href="signout"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
               </ul>
             </div>
           </li>

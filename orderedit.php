@@ -79,7 +79,7 @@ $err1=1;
 if (!isset($error) || $error == 0){
 	
 $res = $pdo->exec("UPDATE `order` SET `customer`='".$customer."',`description`='".$desc."',`received_by`='".$received_by."',`amount`='".$amount."',`paid`='".$paid."',`date_received`='".$date_received."',`completed`='".$completed."',`date_collected`='".$date_collected."' WHERE id='".$eid."'");
-$res2 = $pdo->exec("UPDATE `calendar` SET `title`='".$name."', `description`='".$desc."', `start`='".$date_received."', `end`='".$date_collected."', `allDay`='true', `color`='".$color."', `url`='../orderedit.php?id=$eid', `category`='Orders', `user_id`='".$uid."' WHERE `order`='".$eid."'");
+$res2 = $pdo->exec("UPDATE `calendar` SET `title`='".$name."', `description`='".$desc."', `start`='".$date_received."', `end`='".$date_collected."', `allDay`='true', `color`='".$color."', `url`='../orderedit?id=$eid', `category`='Orders', `user_id`='".$uid."' WHERE `order`='".$eid."'");
 
 	if($res){
 		echo "<div class='alert alert-success alert-dismissable'>
@@ -115,7 +115,7 @@ $old = $oldd->fetch(PDO::FETCH_ASSOC)
 				
 				
 				
-				    <form action="orderedit.php?id=<?php echo $eid ?>" method="post">
+				    <form action="orderedit?id=<?php echo $eid ?>" method="post">
 					<div class="card" style="width:500px;height:900px;background-color:white;padding: 40px;border-radius:10px">   
   
                     <div class="form-group">

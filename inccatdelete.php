@@ -70,7 +70,7 @@ HOME PAGE !! Cant DELETE!!
 
 
 ?>	
-		<meta http-equiv="refresh" content="2; url=inccatview.php" />  
+		<meta http-equiv="refresh" content="2; url=inccatview" />  
 		  
 		
 	 </div>

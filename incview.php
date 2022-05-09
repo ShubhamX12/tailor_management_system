@@ -83,8 +83,8 @@ $rname =	$rname->fetch(PDO::FETCH_ASSOC);
                                    
                                             
 											<td>
-<a href='incedit.php?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
-<a href='incview.php?incid=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
+<a href='incedit?id=$data[id]' class='btn btn-info btn-xs'>Edit</a>
+<a href='incview?incid=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
 ";
 
 echo "</td></tr>";

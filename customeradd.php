@@ -113,7 +113,7 @@ Customer Added Successfully!
 				  <label class="col-sm-3 control-label">Comment</label><br/><br/>
 				  <div class="col-sm-6"><textarea rows="4" class="form-control" cols="10000" name="comment" class="form-control" type="text"  style="width:410px"/></textarea></div>
 				 
-					<br><br><br><br><br>
+					<br><br><br><br><br><br>
 					<label>Sex</label><br/>
 					
 					<select name="sex" class="form-control" style="width:100%">

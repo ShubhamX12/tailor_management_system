@@ -52,7 +52,7 @@ include ('header.php');
                                 </div>
                             </div>
                         </div>
-                        <a href="customerview.php">
+                        <a href="customerview">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -74,7 +74,7 @@ include ('header.php');
                                 </div>
                             </div>
                         </div>
-                        <a href="orderlist.php">
+                        <a href="orderlist">
                             <div class="panel-footer">
                             	<span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -96,7 +96,7 @@ include ('header.php');
                                 </div>
                             </div>
                         </div>
-                        <a href="incview.php">
+                        <a href="incview">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
