@@ -30,7 +30,6 @@ include ('header.php');
 
 
     
-
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
@@ -165,6 +164,7 @@ for ($i = 28; $i >= 1; $i--) {
 }
 $profit .= ',"'.profit(date('Y-m-d'),$pdo).'"';
 ?>
+</div>
 
 <script>
 //current year income / expense	

@@ -90,7 +90,7 @@ h1 {
 		$dd = $dd->fetch(PDO::FETCH_ASSOC);
 		$currency = $dd['currency'];
  ?>
-<section>
+<section style="background-color:black">
 
   <div class="leftpanel">
 
@@ -101,16 +101,16 @@ h1 {
     <div class="leftpanelinner">
 
         <!-- This is only visible to small devices -->
-        <div class="visible-xs hidden-sm hidden-md hidden-lg">
+        <div class="visible-xs hidden-sm hidden-md hidden-lg" id="leftpanel2" style="background-color:black">
 
-            <h5 class="sidebartitle actitle">Account</h5>
+            <h5 class="sidebartitle actitle" style="background-color:black">Account</h5>
             <ul class="nav nav-pills nav-stacked nav-bracket mb30">
               <li><a href="changepass.php"><i class="fa fa-cog"></i> <span>Account Settings</span></a></li>
               <li><a href="signout.php"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
             </ul>
         </div>
  
-      <ul class="nav nav-pills  nav-stacked nav-bracket">
+      <ul class="nav nav-pills  nav-stacked nav-bracket" id="slide1">
 	  
         <li><a href="home.php" class="icon"><i class="fa fa-home"></i> <span class="icon">Dashboard</span></a></li>
         
