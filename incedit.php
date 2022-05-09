@@ -98,7 +98,7 @@ $old = $oldd->fetch(PDO::FETCH_ASSOC)
 				
 				
 				
-				    <form action="incedit.php?id=<?php echo $eid ?>" method="post">
+				    <form action="incedit?id=<?php echo $eid ?>" method="post">
 					<div class="card" style="width:500px;height:550px;background-color:white;padding: 40px;border-radius:10px;box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -webkit-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -moz-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);">   
