@@ -100,7 +100,7 @@ $ddaa = $pdo->query("SELECT id, address, fullname, phonenumber, sex FROM custome
 											<td>
 <a href='orderadd?id=$data[id]' class='btn btn-success btn-xs'>New Order</a>
 $measure 
-<a href='customerview?id=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
+<a href='customerview.php?id=$data[id]'><button type='button' class='btn btn-danger btn-xs'>DELETE</button></a>
 ";
 
 echo "</td></tr>";
