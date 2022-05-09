@@ -6,7 +6,7 @@ require_once('function.php');
 session_start();
 
 if (is_user()) {
-	redirect('home.php');
+	redirect('home');
 }
 ?>
 
