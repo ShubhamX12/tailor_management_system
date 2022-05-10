@@ -61,7 +61,7 @@ echo "<div class='alert alert-success alert-dismissable'>
 Customer Added Successfully!
 
 </div>
-<meta http-equiv='refresh' content='2; url=addmeasurement.php?id=$cid' /> 
+<meta http-equiv='refresh' content='2; url=addmeasurement?id=$cid' /> 
 ";
 
 
@@ -84,7 +84,7 @@ Customer Added Successfully!
 				
 				
 				
-				    <form action="customeradd.php" method="post">
+				    <form action="customeradd" method="post">
 		
                 <div class="card" style="width:500px;height:800px;background-color:white;padding: 40px;border-radius:10px; box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -webkit-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
