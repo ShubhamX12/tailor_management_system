@@ -2,8 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-weight: 300;
-    color: #888;
+    font-weight: 300; 
     line-height: 30px;
     text-align: center;
 }
@@ -187,7 +186,11 @@ ul.navbar-nav {
 	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
 	text-align: left;
 }
-
+.marquee{
+	display: flex;
+	opacity: 0.5;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .form-bottom form textarea {
 	height: 100px;
 }

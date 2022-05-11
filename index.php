@@ -48,8 +48,12 @@ height: 50px;
 		<!-- Top menu -->
 		
         <!-- Top content -->
-        <div class="top-content" >
-        	
+        <div class="top-content" > 
+            <div class="marquee" style="color:white;background-color:black">
+
+             <marquee behavior="alternate" scrollamount="16" direction="alternate"><h1><h1><h1><big><big>Tailor Software</h1></marquee>
+            </div>
+         
             <div class="inner-bg">
                 <div class="container" style="box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
 -webkit-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);
