@@ -60,7 +60,7 @@ height: 50px;
 -moz-box-shadow: 2px 4px 14px 12px rgba(0,0,0,0.12);">
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1><strong>ADMIN </strong> Login</h1>
+                            <h1><strong>ADMIN LOGIN</strong>  </h1>
                         </div>
                     </div>
                     <div class="row">
