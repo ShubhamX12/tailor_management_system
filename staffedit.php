@@ -99,7 +99,7 @@ $old = $oldd->fetch(PDO::FETCH_ASSOC)
 				
 				
 				
-				    <form action="staffedit.php?id=<?php echo $eid ?>" method="post">
+				    <form action="staffedit?id=<?php echo $eid ?>" method="post">
 					<div class="card" style="width:500px;height:650px;background-color:white;padding: 40px;border-radius:10px">   
             	
                     <div class="form-group">

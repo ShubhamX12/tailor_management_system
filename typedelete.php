@@ -68,7 +68,7 @@ HOME PAGE !! Cant DELETE!!
 
 
 ?>	
-		<meta http-equiv="refresh" content="2; url=typeview.php" />  
+		<meta http-equiv="refresh" content="2; url=typeview" />  
 		  
 		
 	 </div>

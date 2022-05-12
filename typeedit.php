@@ -66,7 +66,7 @@ if($res){
 <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>	
 
 UPDATED Successfully!
-<meta http-equiv='refresh' content='2; url=typeview.php' />
+<meta http-equiv='refresh' content='2; url=typeview' />
 
 </div>";
 }else{

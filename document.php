@@ -145,7 +145,7 @@ echo "                                 <tr>
                                             
 											<td>
 <a href='img/documents/$data[img]' class='btn btn-info btn-xs'>View</a>
-<a class='btn btn-danger btn-xs' href='deldoc.php?id=$data[id]'>Delete</a>
+<a class='btn btn-danger btn-xs' href='deldoc?id=$data[id]'>Delete</a>
 ";
 
 echo "</td></tr>";

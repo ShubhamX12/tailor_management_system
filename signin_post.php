@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		redirect('home');
 	}
 	else {
-		redirect('index.php?error=' . urlencode('Wrong username or password'));
+		redirect('index?error=' . urlencode('Wrong username or password'));
 	}
 }
 
